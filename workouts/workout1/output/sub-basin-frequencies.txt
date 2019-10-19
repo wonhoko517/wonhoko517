@@ -1,0 +1,12 @@
+ AS
+ BB
+ CP
+ CS
+ EA
+ GM
+ MM
+ NA
+ WA
+BB
+IBTrACS -- Version: v03r10
+Sub_basin

@@ -1,0 +1,43 @@
+---
+title: "Workout01"
+output: html_document
+---
+```{r}
+library(readr)    # for importing data tables
+library(dplyr)    # for manipulating data frames
+library(ggplot2)  # for graphics
+library(maps)
+```
+```{r echo = FALSE, fig.align="center'}
+knitr::include_graphics('../images/map-all-storms.png')
+```
+```{r}
+#Data Visualization
+map("state", fill = TRUE, col = "white", namesonly = TRUE, plot = FALSE)
+
+png(filename = '/Users/wonho/Desktop/workout1/images/ibtracs-2010-2015.csv', pointsize = 20)
+plot(dat$basins, dat$Sub_basin, las = 1, pch = 19,
+     xlab = 'basins', ylab = 'Sub_basin')
+dev.off()
+
+
+#Report
+
+filter(dat, Latitude >= 0 & Latitude <=90)
+
+filter(dat, Latitude == 0)
+
+filter(dat, Wind.WMO. >= 35)
+
+filter(dat, Wind.WMO. >= 64)
+
+summarise(group_by(dat, Name), max = max(Wind.WMO.))
+
+arrange(summarise(group_by(dat, Name), min = min(Pres.WMO.), desc(min)))
+
+dat2 <- read.csv("ibtracs_2010.csv", col.names=column_names,colClasses=column_types,sep=',')
+
+dat2 <- dat2[c('Serial_Num', 'Season', 'Num', 'Latitude', 'Longitude')]
+
+dat2
+```
