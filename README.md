@@ -1,1 +1,1 @@
-# wonhoko517
+The purpose of this assignment is threefold: 1) From the logistical point of view, this assignment will give you the opportunity to start working with a more complex ﬁle structure, and uploading ﬁles to your private classroom GitHub repository. 2) From the analytics point of view, this HW involves visualizing trajectories of storms around the world. 3) From the report/communication standpoint, you will have to produce a report document that is not just a boring list of code-chunks and outputs without a narrative.
