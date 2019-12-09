@@ -1,8 +1,8 @@
 The purpose of this assignment is threefold:
 
-. Thisassignmentwillgiveyoutheopportunitytolearnwebscrapingatamoreadvanced level than what we cover in lab. 
-. This assignment also includes extracting crucial insights from the data using regular expressions and present the insights in a creative manner. 
-. Once again for this workout, you will produce a report document that will be in a narrative format and share all the ???les used/generated for the purpose of analysis via GitHub.
+This assignment will give you the opportunity to learn web scraping at a more advanced level than what we cover in lab. 
+This assignment also includes extracting crucial insights from the data using regular expressions and present the insights in a creative manner. 
+Once again for this workout, you will produce a report document that will be in a narrative format and share all the files used/generated for the purpose of analysis via GitHub.
 
 Web Scraping is..
 
